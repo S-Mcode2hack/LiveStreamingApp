@@ -1,0 +1,36 @@
+#logo{
+    width: 40px;
+}
+#navigation-bar{
+    display: flex;
+    width: 100%;
+/*     justify-content: space-between;
+ */    align-items: center;
+    position: fixed;
+}
+#navbar-categ-section ul{
+    list-style: none;
+   display: flex;
+}
+#navbar-categ-section ul li{
+    margin: 0px 10px 0px 10px;
+}
+.navbar-categ-link{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    
+}
+.navbar-categ-link:hover{
+    color: rgb(182, 182, 182);
+    border-bottom: solid white 1px;
+}
+.navbar-right-links{
+    width: 30px;
+    margin: 0px 20px 0px 0px;
+}
+#navbar-categ-section{
+    width: 84vw;
+}
+#logo-section{
+    width: 8vw;
+}
